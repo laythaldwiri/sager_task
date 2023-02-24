@@ -1,0 +1,46 @@
+.profile-timeline-media .table thead th {
+    width: 50%;
+}
+
+.card-body .dropdown.bootstrap-select.show-tick .btn {
+    display: inline-block;
+    width: 98%;
+    height: calc(1.5em + 1.18rem + 2px);
+    padding: 10px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #ffffff no-repeat right 1rem center/8px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    appearance: none;
+    margin: 2%;
+    border-radius: 0;
+}
+.card-body .dropdown.bootstrap-select.show-tick {
+    position: relative;
+    flex: 1 1 0%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+
+.dashTable.table td{
+    width: 100px;
+}
+.dashTable  tbody tr td:first-child{
+    width: max-content;
+}
+.profile-timeline-media .dashTable.table thead th{
+    width: 100px;
+    font-size: 12px;
+}
+.profile-timeline-media .dashTable.table thead th:first-child{
+    width: max-content;
+}
+
+.bootstrap-select>.dropdown-toggle:after ,.dropdown-toggle::after{
+    margin-left: -10px;
+}
